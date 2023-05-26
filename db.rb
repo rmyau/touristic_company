@@ -4,7 +4,7 @@ class DB
   private_class_method :new
   @@instance = nil
   def initialize
-    @db = SQLite3::Database.new 'C:\Users\katya\Desktop\ruby_lab\db_student.sql'
+    @db = SQLite3::Database.new 'C:\Users\katya\Desktop\touristic_company\tourist.sql'
     @db.results_as_hash=true
   end
 
