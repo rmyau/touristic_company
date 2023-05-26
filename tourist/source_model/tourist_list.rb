@@ -8,8 +8,8 @@ class TouristList
   end
 
   # получить студента по id
-  def client_by_id(tourist_id)
-    @data_adapter.client_by_id(tourist_id)
+  def tourist_by_id(tourist_id)
+    @data_adapter.tourist_by_id(tourist_id)
   end
 
 

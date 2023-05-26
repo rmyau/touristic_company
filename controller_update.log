@@ -1,0 +1,79 @@
+# Logfile created on 2023-05-26 15:46:00 +0300 by logger.rb/v1.5.0
+I, [2023-05-26T15:46:00.665821 #15196]  INFO -- : Adding view to update client controller
+I, [2023-05-26T15:46:36.904288 #16740]  INFO -- : Adding view to update client controller
+I, [2023-05-26T15:47:54.027669 #27016]  INFO -- : Adding view to update client controller
+I, [2023-05-26T15:48:00.939453 #27016]  INFO -- : Executing add student operation
+I, [2023-05-26T15:48:05.688663 #27016]  INFO -- : Adding view to update client controller
+I, [2023-05-26T15:48:10.263049 #27016]  INFO -- : Validating fields
+E, [2023-05-26T15:48:10.264103 #27016] ERROR -- : Error occurred while validating fields: Incorrect value: last_name=Ивановx
+I, [2023-05-26T15:48:11.040028 #27016]  INFO -- : Validating fields
+I, [2023-05-26T15:48:12.126546 #27016]  INFO -- : Validating fields
+I, [2023-05-26T15:48:12.577444 #27016]  INFO -- : Validating fields
+I, [2023-05-26T15:48:14.550085 #27016]  INFO -- : Saving updated client
+I, [2023-05-26T15:49:40.496646 #15172]  INFO -- : Adding view to update client controller
+I, [2023-05-26T15:49:44.472744 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:49:44.473459 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: last_name=Ивановd
+I, [2023-05-26T15:49:45.205646 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:49:46.190737 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:49:47.703219 #15172]  INFO -- : Saving updated client
+I, [2023-05-26T15:49:47.723507 #15172]  INFO -- : Executing add student operation
+I, [2023-05-26T15:49:58.652282 #15172]  INFO -- : Adding view to update client controller
+I, [2023-05-26T15:50:02.939661 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:03.940604 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:08.958357 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:09.608304 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:10.243638 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:10.418258 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:10.608575 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:10.748675 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:10.893810 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:11.173370 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:11.349012 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:11.528999 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:11.719953 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:11.894797 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:25.221647 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:26.182234 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:26.896963 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:27.428239 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:27.607995 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:27.708076 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:27.957916 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:28.162575 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:28.332266 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:30.170393 #15172]  INFO -- : Saving updated client
+I, [2023-05-26T15:50:30.194008 #15172]  INFO -- : Executing add student operation
+I, [2023-05-26T15:50:40.465280 #15172]  INFO -- : Adding view to update client controller
+I, [2023-05-26T15:50:42.494376 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:42.495281 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=у!
+I, [2023-05-26T15:50:42.671091 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:42.671469 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=уь!
+I, [2023-05-26T15:50:43.099418 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:43.100351 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=у!
+I, [2023-05-26T15:50:43.264930 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:47.511881 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:47.512643 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=p!
+I, [2023-05-26T15:50:47.596567 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:47.597371 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=pe!
+I, [2023-05-26T15:50:47.786684 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:47.787552 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=pet!
+I, [2023-05-26T15:50:47.966443 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:47.966964 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=pety!
+I, [2023-05-26T15:50:48.137572 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:48.138326 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=petya!
+I, [2023-05-26T15:50:50.738500 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:50.738962 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=petya@!
+I, [2023-05-26T15:50:51.438238 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:51.438905 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=petya@m!
+I, [2023-05-26T15:50:51.562926 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:51.563460 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=petya@ma!
+I, [2023-05-26T15:50:51.728806 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:51.729341 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=petya@mai!
+I, [2023-05-26T15:50:51.908644 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:51.911826 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=petya@mail!
+I, [2023-05-26T15:50:52.238362 #15172]  INFO -- : Validating fields
+E, [2023-05-26T15:50:52.238887 #15172] ERROR -- : Error occurred while validating fields: Incorrect value: address=petya@mail.!
+I, [2023-05-26T15:50:52.478756 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:52.963800 #15172]  INFO -- : Validating fields
+I, [2023-05-26T15:50:55.238639 #15172]  INFO -- : Saving updated client
+I, [2023-05-26T15:50:55.266709 #15172]  INFO -- : Executing add student operation

@@ -87,13 +87,10 @@ class CreateClientDialog<FXDialogBox
     unless @client.nil?
       client_hash = @client.to_hash
       @field_text.each_key do |name_field|
-          puts "fields #{name_field}"
           unless editable_fields.include?(name_field)
           @field_text[name_field].editable = false
           end
           @field_text[name_field].text = client_hash[name_field]
-          puts(client_hash[name_field])
-
       end
     end
   end

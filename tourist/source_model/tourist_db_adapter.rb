@@ -44,7 +44,7 @@ class TouristDBAdapter
     email_value = fields[5].nil? ? 'NULL' : "'#{fields[5]}'"
 
 
-    @db.execute("UPDATE client SET first_name = '#{fields[0]}',
+    @db.execute("UPDATE tourist SET first_name = '#{fields[0]}',
                                paternal_name = '#{fields[1]}',
                                last_name = '#{fields[2]}',
                                address=#{address_value},
@@ -72,7 +72,6 @@ class TouristDBAdapter
     # student = student_list.student_by_id(1)
     # puts student.inspect
     data_list.replace_objects(slice)
-    puts data_list
     data_list
   end
 
