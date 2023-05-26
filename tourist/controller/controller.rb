@@ -15,6 +15,7 @@ require 'win32api'
 require 'fox16'
 include Fox
 require 'logger'
+require_relative  '../../copy_bd'
 
 
 class ClientListController
@@ -23,7 +24,8 @@ class ClientListController
     @data_list = DataListTouristShort.new([])
     @data_list.add_observer(@view)
     @client_list = TouristList.new(TouristDBAdapter.new)
-    @logger = Logger.new('controller.log') # Указывает путь и имя файла для логов
+    @logger = Logger.new('tourist/controller.log') # Указывает путь и имя файла для логов
+    do_backup
   end
 
 

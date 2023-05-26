@@ -6,7 +6,7 @@ class AddClientController
 
   def initialize(client_list)
     @client_list = client_list
-    @logger = Logger.new('controller_add.log') # Указывает путь и имя файла для логов
+    @logger = Logger.new('tourist/controller_add.log') # Указывает путь и имя файла для логов
   end
 
   #привязка view

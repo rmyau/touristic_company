@@ -7,7 +7,7 @@ class UpdateClientController<AddClientController
   def initialize(client_list, client_id)
     super(client_list)
     @client_id = client_id
-    @logger = Logger.new('controller_update.log') # Указывает путь и имя файла для логов
+    @logger = Logger.new('tourist/controller_update.log') # Указывает путь и имя файла для логов
   end
 
   def save_client(client)
@@ -21,8 +21,6 @@ class UpdateClientController<AddClientController
     client = @client_list.tourist_by_id(@client_id)
     @view.set_client(client,get_editable_fields)
   end
-
-
 
   private
   def get_editable_fields; end
