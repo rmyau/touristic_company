@@ -25,6 +25,6 @@ class DataListTouristShort < DataList
   protected
     #сеттер для массива объектов
   def table_fields(object)
-    [object.last_name_and_initials,object.address, object.contact]
+    [object.last_name_and_initials, object.address, object.contact]
   end
 end

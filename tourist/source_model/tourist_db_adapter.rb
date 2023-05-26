@@ -64,8 +64,8 @@ class TouristDBAdapter
     res
   end
 
-  def get_k_n_client_short_list(k,n,data_list)
-    clients = @db.execute("SELECT * FROM client LIMIT #{(k-1)*n}, #{n}")
+  def get_k_n_tourist_short_list(k,n,data_list)
+    clients = @db.execute("SELECT * FROM tourist LIMIT #{(k-1)*n}, #{n}")
     clients2=clients.map(&:to_h)
     slice = clients2.map { |h| TouristShort.new(Tourist.from_hash(h.transform_keys(&:to_sym))) }
     DataListTouristShort.new(slice) if data_list.nil?

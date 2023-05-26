@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-require_relative '../rist_short'
+require_relative 'tourist_short'
 class Tourist<TouristShort
 
   # стандартные геттеры и сеттеры для класса
@@ -109,8 +109,8 @@ class Tourist<TouristShort
 
 
   def contact
-    return @contact = "phone= #{phone}" unless phone.nil?
-    return @contact = "email= #{email}" unless email.nil?
+    return @contact = "#{phone}" unless phone.nil?
+    return @contact = "#{email}" unless email.nil?
     nil
   end
 
